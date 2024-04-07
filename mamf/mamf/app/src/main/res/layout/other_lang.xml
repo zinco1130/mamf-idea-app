@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment3"
+    android:id="@+id/otherlangpage">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/nepal"
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:background="#00ff0000"
+                android:gravity="start|center_vertical"
+                android:text="네팔"
+                android:textColor="#7A7A7A"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="370dp"
+                android:layout_height="1dp"
+                android:background="#9A9A9A"/>
+
+            <Button
+                android:id="@+id/mone"
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:background="#00ff0000"
+                android:gravity="start|center_vertical"
+                android:text="몽골"
+                android:textColor="#7A7A7A"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="370dp"
+                android:layout_height="1dp"
+                android:background="#9A9A9A"/>
+
+            <Button
+                android:id="@+id/miyan"
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:background="#00ff0000"
+                android:gravity="start|center_vertical"
+                android:text="미얀마"
+                android:textColor="#7A7A7A"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="370dp"
+                android:layout_height="1dp"
+                android:background="#9A9A9A"/>
+
+            <Button
+                android:id="@+id/bang"
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:background="#00ff0000"
+                android:gravity="start|center_vertical"
+                android:text="방글라데시"
+                android:textColor="#7A7A7A"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="370dp"
+                android:layout_height="1dp"
+                android:background="#9A9A9A"/>
+
+            <Button
+                android:id="@+id/veit"
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:background="#00ff0000"
+                android:gravity="start|center_vertical"
+                android:text="베트남"
+                android:textColor="#7A7A7A"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="370dp"
+                android:layout_height="1dp"
+                android:background="#9A9A9A"/>
+
+            <Button
+                android:id="@+id/sri"
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:background="#00ff0000"
+                android:gravity="start|center_vertical"
+                android:text="스리랑카"
+                android:textColor="#7A7A7A"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="370dp"
+                android:layout_height="1dp"
+                android:background="#9A9A9A"/>
+
+            <Button
+                android:id="@+id/uzback"
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:background="#00ff0000"
+                android:gravity="start|center_vertical"
+                android:text="우즈베키스탄"
+                android:textColor="#7A7A7A"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="370dp"
+                android:layout_height="1dp"
+                android:background="#9A9A9A"/>
+
+            <Button
+                android:id="@+id/indonesia"
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:background="#00ff0000"
+                android:gravity="start|center_vertical"
+                android:text="인도네시아"
+                android:textColor="#7A7A7A"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="370dp"
+                android:layout_height="1dp"
+                android:background="#9A9A9A"/>
+
+            <Button
+                android:id="@+id/jpn"
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:background="#00ff0000"
+                android:gravity="start|center_vertical"
+                android:text="일본"
+                android:textColor="#7A7A7A"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="370dp"
+                android:layout_height="1dp"
+                android:background="#9A9A9A"/>
+
+            <Button
+                android:id="@+id/china"
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:background="#00ff0000"
+                android:gravity="start|center_vertical"
+                android:text="중국"
+                android:textColor="#7A7A7A"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="370dp"
+                android:layout_height="1dp"
+                android:background="#9A9A9A"/>
+
+            <Button
+                android:id="@+id/cam"
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:background="#00ff0000"
+                android:gravity="start|center_vertical"
+                android:text="캄보디아"
+                android:textColor="#7A7A7A"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="370dp"
+                android:layout_height="1dp"
+                android:background="#9A9A9A"/>
+
+            <Button
+                android:id="@+id/thai"
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:background="#00ff0000"
+                android:gravity="start|center_vertical"
+                android:text="태국"
+                android:textColor="#7A7A7A"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="370dp"
+                android:layout_height="1dp"
+                android:background="#9A9A9A"/>
+
+            <Button
+                android:id="@+id/paki"
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:background="#00ff0000"
+                android:gravity="start|center_vertical"
+                android:text="파키스탄"
+                android:textColor="#7A7A7A"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="370dp"
+                android:layout_height="1dp"
+                android:background="#9A9A9A"/>
+
+            <Button
+                android:id="@+id/phil"
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:background="#00ff0000"
+                android:gravity="start|center_vertical"
+                android:text="필리핀"
+                android:textColor="#7A7A7A"
+                android:textSize="16sp" />
+
+
+            <View
+                android:layout_width="370dp"
+                android:layout_height="1dp"
+                android:background="#9A9A9A"/>
+
+            <Button
+                android:id="@+id/eng"
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:background="#00ff0000"
+                android:gravity="start|center_vertical"
+                android:text="영어"
+                android:textColor="#7A7A7A"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".Fragment3">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/otherlang"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:background="#00ff0000"
+                android:gravity="start|center_vertical"
+                android:text="다국어 설정"
+                android:textColor="#7A7A7A"
+                android:textSize="17sp" />
+
+            <View
+                android:layout_width="380dp"
+                android:layout_height="1dp"
+                android:background="#9A9A9A"/>
+
+            <Button
+                android:id="@+id/setlogout"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:background="#00ff0000"
+                android:gravity="start|center_vertical"
+                android:text="로그아웃"
+                android:textColor="#7A7A7A"
+                android:textSize="17sp" />
+
+            <View
+                android:layout_width="380dp"
+                android:layout_height="1dp"
+                android:background="#9A9A9A"/>
+
+            <Button
+                android:id="@+id/info"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:background="#00ff0000"
+                android:gravity="start|center_vertical"
+                android:text="정보"
+                android:textColor="#7A7A7A"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

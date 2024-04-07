@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:background="@drawable/border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="어플리케이션 정보"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="25dp"
+            android:text="어플리케이션 버전: 0.1 Ver"
+            android:textAlignment="viewStart"
+            android:textSize="16sp"
+            android:layout_marginLeft="17dp"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:text="아이콘 이미지: flaticon.com/kr/"
+            android:textAlignment="viewStart"
+            android:textSize="16sp"
+            android:layout_marginLeft="17dp"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:text="개발자:"
+            android:textAlignment="viewStart"
+            android:textSize="16sp"
+            android:layout_marginLeft="17dp"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:text="양다원(yang1234@naver.com)"
+            android:textAlignment="viewStart"
+            android:textSize="16sp"
+            android:layout_marginLeft="32dp"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:text="오아연(oay2319@naver.com)"
+            android:textAlignment="viewStart"
+            android:textSize="16sp"
+            android:layout_marginLeft="32dp"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:text="조성은(seong99@naver.com)"
+            android:textAlignment="viewStart"
+            android:textSize="16sp"
+            android:layout_marginLeft="32dp"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:text="정보 추가 예정"
+            android:textAlignment="viewStart"
+            android:textSize="13sp"
+            android:layout_marginLeft="17dp"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

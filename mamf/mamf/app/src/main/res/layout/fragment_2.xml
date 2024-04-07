@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mapHome"
+    android:layout_width="410dp"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="#FFFFFF"
+    android:clipToOutline="true"
+    android:visibility="visible">
+
+    <View
+        android:id="@+id/map"
+        android:layout_width="280dp"
+        android:layout_height="275dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="209dp"
+        android:background="@drawable/map"
+        android:rotation="25"
+        android:rotationX="35" />
+
+    <Button
+        android:id="@+id/pinkLine"
+        android:layout_width="209dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="424dp"
+        android:backgroundTint="#F495F8"
+        android:rotation="34"
+        android:rotationX="35"
+        android:stateListAnimator="@null"
+        android:text="." />
+
+
+    <Button
+        android:id="@+id/yellowLine"
+        android:layout_width="155dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="299dp"
+        android:backgroundTint="#F8EC7E"
+        android:rotation="127"
+        android:rotationX="35"
+        android:stateListAnimator="@null"
+        android:text="." />
+
+    <Button
+        android:id="@+id/yellowbtn2"
+        android:layout_width="37dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="318dp"
+        android:backgroundTint="#DCCC4B"
+        android:rotation="-773"
+        android:rotationX="35"
+        android:stateListAnimator="@null"
+        android:text="VIE"
+        android:textColor="#000000"
+        android:textSize="9sp" />
+
+    <Button
+        android:id="@+id/yellowbtn3"
+        android:layout_width="39dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="294dp"
+        android:backgroundTint="#DCCC4B"
+        android:rotation="-773"
+        android:rotationX="35"
+        android:stateListAnimator="@null"
+        android:text="SRI"
+        android:textColor="#000000"
+        android:textSize="9sp" />
+
+    <Button
+        android:id="@+id/yellowbtn4"
+        android:layout_width="36dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="268dp"
+        android:backgroundTint="#DCCC4B"
+        android:rotation="-775"
+        android:rotationX="35"
+        android:stateListAnimator="@null"
+        android:text="UZB"
+        android:textColor="#000000"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/skyLine"
+        android:layout_width="144dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="202dp"
+        android:layout_marginTop="267dp"
+        android:backgroundTint="#00BCD4"
+        android:rotation="20"
+        android:rotationX="35"
+        android:stateListAnimator="@null"
+        android:text="." />
+
+    <Button
+        android:id="@+id/skybtn3"
+        android:layout_width="41dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="284dp"
+        android:backgroundTint="#29A1CF"
+        android:rotation="19"
+        android:rotationX="35"
+        android:stateListAnimator="@null"
+        android:text="CHN"
+        android:textColor="#000000"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/skybtn2"
+        android:layout_width="41dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="271dp"
+        android:backgroundTint="#29A1CF"
+        android:rotation="20"
+        android:rotationX="35"
+        android:stateListAnimator="@null"
+        android:text="JPN"
+        android:textColor="#000000"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/skybtn1"
+        android:layout_width="41dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="259dp"
+        android:backgroundTint="#29A1CF"
+        android:rotation="20"
+        android:rotationX="35"
+        android:stateListAnimator="@null"
+        android:text="INA"
+        android:textColor="#000000"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/pinkbtn3"
+        android:layout_width="67dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginTop="466dp"
+        android:backgroundTint="#E975ED"
+        android:rotation="932"
+        android:rotationX="27"
+        android:stateListAnimator="@null"
+        android:text="N      E      P"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/pinkbtn2"
+        android:layout_width="65dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="433dp"
+        android:backgroundTint="#E975ED"
+        android:rotation="934"
+        android:rotationX="35"
+        android:stateListAnimator="@null"
+        android:text="M    G     L"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/orangeLine"
+        android:layout_width="192dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="371dp"
+        android:layout_marginEnd="-22dp"
+        android:backgroundTint="#FF9574"
+        android:rotation="99"
+        android:rotationX="35"
+        android:stateListAnimator="@null"
+        android:text="." />
+
+    <Button
+        android:id="@+id/orangebtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="297dp"
+        android:layout_marginTop="443dp"
+        android:layout_marginEnd="59dp"
+        android:backgroundTint="#F47D57"
+        android:rotation="99"
+        android:rotationX="35"
+        android:stateListAnimator="@null"
+        android:text="P   H    I"
+        android:textColor="#000000"
+        android:textSize="11sp" />
+
+    <Button
+        android:id="@+id/orangebtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="309dp"
+        android:layout_marginTop="402dp"
+        android:layout_marginEnd="54dp"
+        android:backgroundTint="#F47D57"
+        android:rotation="98"
+        android:rotationX="35"
+        android:stateListAnimator="@null"
+        android:text="PAK"
+        android:textColor="#000000"
+        android:textSize="10.5sp" />
+
+    <Button
+        android:id="@+id/orangebtn3"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="318dp"
+        android:layout_marginTop="366dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="#F47D57"
+        android:rotation="98"
+        android:rotationX="35"
+        android:stateListAnimator="@null"
+        android:text="THA"
+        android:textColor="#000000"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/orangebtn4"
+        android:layout_width="48dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="327dp"
+        android:layout_marginTop="332dp"
+        android:layout_marginEnd="44dp"
+        android:backgroundTint="#F47D57"
+        android:rotation="98"
+        android:rotationX="35"
+        android:stateListAnimator="@null"
+        android:text="CAM"
+        android:textColor="#000000"
+        android:textSize="8sp" />
+
+    <ImageView
+        android:id="@+id/mamf"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="326dp"
+        android:layout_marginEnd="123dp"
+        android:rotation="25"
+        android:rotationX="35"
+        android:stateListAnimator="@null"
+        app:srcCompat="@drawable/mamf" />
+
+    <Button
+        android:id="@+id/pinkbtn1"
+        android:layout_width="63dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="404dp"
+        android:backgroundTint="#E975ED"
+        android:rotation="935"
+        android:rotationX="35"
+        android:stateListAnimator="@null"
+        android:text="M    Y     A"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/yellowbtn1"
+        android:layout_width="41dp"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="345dp"
+        android:backgroundTint="#DCCC4B"
+        android:foregroundGravity="clip_horizontal|fill_vertical"
+        android:rotation="-770"
+        android:rotationX="35"
+        android:rotationY="0"
+        android:stateListAnimator="@null"
+        android:text="BAN"
+        android:textColor="#000000"
+        android:textSize="9sp" />
+
+
+    <Button
+        android:id="@+id/mileage"
+        android:layout_width="130dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="5dp"
+        android:background="#00ff0000"
+        android:text="마일리지: 0"
+        android:textColor="#888888"
+        android:textSize="13sp"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>
